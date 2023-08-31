@@ -1,4 +1,4 @@
-/* Some basic styling */
+/* Some basic styling
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,4 +11,9 @@ ul {
 li {
     padding: 10px;
     border-bottom: 1px solid #ccc;
+} */
+
+body {
+    background-color: black;
+    color: white;
 }
