@@ -34,7 +34,8 @@
 
 // export default App
 
-import Cat from './Cat.jsx'
+// import Cat from './Cat.jsx'
+import Photo from './Photo.jsx'
 
 function App() {
 
@@ -43,7 +44,8 @@ function App() {
             <div style={{display:'gird', placeItems:'center'}}>
                 <h1>hello world</h1>
             </div>
-            <Cat />
+            {/* <Cat /> */}
+            <Photo />
         </>
     )
 }
