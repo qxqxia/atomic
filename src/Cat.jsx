@@ -18,7 +18,7 @@ export default function Cat() {
                 <li>lasagna</li>
             </ul>
             <figure>
-                <img src="https://cdm.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate." />
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate." />
                 <figcaption>Cats <em>love</em> lasagna.</figcaption>
             </figure>
             <h3>Top 3 things cats hate:</h3>
@@ -28,7 +28,7 @@ export default function Cat() {
                 <li>other cats</li>
             </ol>
             <figure>
-                <img src="https://cdm.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field." />
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field." />
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
            </section>
