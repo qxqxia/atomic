@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 // function App() {
 //     const [items, setItems] = useState(['Item 1', 'Item 2', 'Item 3', 'Item 4']);
@@ -34,11 +34,12 @@
 
 // export default App
 
-// import Cat from './Cat.jsx'
+import Cat from './Cat.jsx'
 import Photo from './Photo.jsx'
 
 function App() {
 
+    const [sw, setSw] = useState(true)
     return (
         <>
             <div style={{display:'gird', placeItems:'center'}}>
