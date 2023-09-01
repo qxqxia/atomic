@@ -39,14 +39,15 @@ import Photo from './Photo.jsx'
 
 function App() {
 
-    const [sw, setSw] = useState(true)
+    const [sw, setSw] = useState(true);
+
     return (
         <>
             <div style={{display:'gird', placeItems:'center'}}>
                 <h1>hello world</h1>
             </div>
-            {/* <Cat /> */}
-            <Photo />
+            <button onClick={() => setSw(!sw)}>Click!</button>
+            { sw ? <Cat /> : <Photo /> }
         </>
     )
 }
