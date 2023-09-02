@@ -13,8 +13,8 @@ function App() {
                 <h1>hello world</h1>
             </div>
             <p>Count: {count}</p>
-            <button onClick={() => setCount(count + 1)}>Increment</button><br></br>
-            <br></br><button onClick={() => setSw(!sw)}>Click!</button>
+            <button class="btn" onClick={() => setCount(count + 1)}>Increment</button><br></br>
+            <br></br><button class="btn" onClick={() => setSw(!sw)}>Click!</button>
             { sw ? <Cat /> : <Photo /> }
         </>
     )
