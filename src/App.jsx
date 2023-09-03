@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import Cat from './Cat.jsx'
 // import Photo from './Photo.jsx'
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
-import Head from './Head.jsx'
+import Head from 'Head.jsx'
 
 function Home() {
     return (
